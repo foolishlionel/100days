@@ -1,5 +1,5 @@
 # one hundred days
-100 days to improve myself
+one hundred days to improve myself
 
 2015.10.21
 -----------
