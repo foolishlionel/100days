@@ -11,4 +11,4 @@
 * [iOS 图形处理 Core Graphics Quartz2D 教程](http://www.xuebuyuan.com/2116970.html)
 * [Difference Between Core Graphics and Quartz 2d-->From Quora](https://www.quora.com/What-is-the-difference-between-Quartz2D-UIKit-Core-Animation-Core-Graphics-Open-GL-ES-Cocoa2D-etc)
 * [Core Text Programming Guide](https://developer.apple.com/library/mac/documentation/StringsTextFonts/Conceptual/CoreText_Programming/Overview/Overview.html)
-* [Core Text 入门教程-->](http://geeklu.com/2013/03/core-text/)
+* [Core Text 入门教程-->Geeklu](http://geeklu.com/2013/03/core-text/)
