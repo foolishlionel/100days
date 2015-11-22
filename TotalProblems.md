@@ -5,7 +5,9 @@
 rvm reinstall ruby-2.0.0-p247 --with-gcc=clang --verify-downloads 1 [参考链接 stackoverflow](http://stackoverflow.com/questions/20790994/cocoapods-failing-to-install-with-xcode-5-0-2)
 ##### 使用淘宝的ruby源（镜像源？）
 $ gem sources --remove https://rubygems.org/
+
 $ gem sources --remove http://ruby.taobao.org/
+
 $ gem sources -a https://ruby.taobao.org/
 > 注意：命令行结尾的`/`不要丢失。
 
