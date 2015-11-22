@@ -19,5 +19,14 @@ $ gem sources -l
 ##### 接着安装cocoapods
 sudo gem isntall cocoapods
 
+##### Pod setup without sudo
+pod setup
+
+##### pod install without sudo
+pod install
+
+
+在此过程中可能会出现安装失败的情况，主要是Permission Denied，参考[Permission Denied Stackoverflow](http://stackoverflow.com/questions/16049335/cocoapods-pod-install-permission-denied)
+
 #### Chrome浏览器的Dolphin爬墙插件
 * [Dolphin官方下载地址](https://taobao.com/)
