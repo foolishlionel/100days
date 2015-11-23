@@ -40,3 +40,6 @@ pod install
 * typedef void (^responseBlock)(id dataObj, NSError *error);
 * typedef void (^progressBlock)(int64_t bytesWritten, int64_t totalBytesWritten， int64_t totalBytesExpectedToWrite);
 [参考链接CocoaChina](http://www.cocoachina.com/ios/20151123/14344.html)
+
+#### 资源收藏
+[某某某的收藏夹](http://github.ibireme.com/github/list/ios/#)
