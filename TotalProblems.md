@@ -48,3 +48,6 @@ pod install
 -------------
 #### GCD的blog
 学习GCD的原理以及源代码，[深入理解GCD -- CocoaChina](http://www.cocoachina.com/ios/20151117/14225.html)
+
+#### Page Container Controller
+[做页面切换的Page Controller](https://github.com/wangmchn/WMPageController)
