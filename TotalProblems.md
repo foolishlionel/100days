@@ -43,3 +43,8 @@ pod install
 
 #### 资源收藏
 [某某某的收藏夹](http://github.ibireme.com/github/list/ios/#)
+
+20151124
+-------------
+#### GCD的blog
+学习GCD的原理以及源代码，[深入理解GCD -- CocoaChina](http://www.cocoachina.com/ios/20151117/14225.html)
