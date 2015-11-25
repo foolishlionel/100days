@@ -42,7 +42,7 @@ pod install
 [参考链接CocoaChina](http://www.cocoachina.com/ios/20151123/14344.html)
 
 #### 资源收藏
-[某某某的收藏夹](http://github.ibireme.com/github/list/ios/#)
+[ibireme的各种iOS资源收藏夹](http://github.ibireme.com/github/list/ios/#)
 
 20151124
 -------------
@@ -51,3 +51,12 @@ pod install
 
 #### Page Container Controller
 [做页面切换的Page Controller](https://github.com/wangmchn/WMPageController)
+
+20151125
+---------------
+#### Image Handle Technology
+1. [iOS保持页面流畅的技巧](http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/#more-41893)
+2. [AsyncDisplayKit](https://github.com/facebook/AsyncDisplayKit)
+3. What is Bitmap?
+4. What is Thread Safety?
+5. [缓存TableViewCell的高度--百度开源的Example](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell/)
