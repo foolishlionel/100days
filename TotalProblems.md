@@ -71,3 +71,8 @@ pod install
 #### 插件管理器Alcatraz
 * [Alcatarz github地址](https://github.com/alcatraz/Alcatraz)
 * [唐巧的博客介绍](http://blog.devtang.com/blog/2014/03/05/use-alcatraz-to-manage-xcode-plugins/)
+
+#### 正则表达式RegexKitLite
+* 官方文档 -- [RegexKitLite Document](http://regexkit.sourceforge.net/RegexKitLite/)
+* github地址 -- [RegexKitLite Repo](https://github.com/wezm/RegexKitLite)
+* cnblog博客解释 -- [iOS中使用RegexKitLite来试用正则表达式](http://blog.csdn.net/luckilyyu/article/details/6229048)
