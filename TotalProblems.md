@@ -61,6 +61,11 @@ pod install
 4. What is Thread Safety?
 5. [缓存TableViewCell的高度--百度开源的Example](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell/)
 
+#### 提供两个参考链接
+* cnblog[位图和矢量图的区别](http://www.cnblogs.com/areliang/archive/2006/04/29/388769.html)
+* 歪果的网站[Difference between bitmap and vector](http://etc.usf.edu/techease/win/images/what-is-the-difference-between-bitmap-and-vector-images/)
+
+
 20151126
 ------------
 #### 插件管理器Alcatraz
