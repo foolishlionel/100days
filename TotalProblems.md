@@ -60,3 +60,9 @@ pod install
 3. What is Bitmap?
 4. What is Thread Safety?
 5. [缓存TableViewCell的高度--百度开源的Example](https://github.com/forkingdog/UITableView-FDTemplateLayoutCell/)
+
+20151126
+------------
+#### 插件管理器Alcatraz
+* [Alcatarz github地址](https://github.com/alcatraz/Alcatraz)
+* [唐巧的博客介绍](http://blog.devtang.com/blog/2014/03/05/use-alcatraz-to-manage-xcode-plugins/)
