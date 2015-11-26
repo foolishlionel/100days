@@ -76,3 +76,4 @@ pod install
 * 官方文档 -- [RegexKitLite Document](http://regexkit.sourceforge.net/RegexKitLite/)
 * github地址 -- [RegexKitLite Repo](https://github.com/wezm/RegexKitLite)
 * cnblog博客解释 -- [iOS中使用RegexKitLite来试用正则表达式](http://blog.csdn.net/luckilyyu/article/details/6229048)
+* 芳仔小脚印的OSC-Blog -- [分分钟学会正则表达式](http://my.oschina.net/joanfen/blog/415076?fromerr=YekKe49J)
