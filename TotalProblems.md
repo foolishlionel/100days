@@ -77,3 +77,8 @@ pod install
 * github地址 -- [RegexKitLite Repo](https://github.com/wezm/RegexKitLite)
 * cnblog博客解释 -- [iOS中使用RegexKitLite来试用正则表达式](http://blog.csdn.net/luckilyyu/article/details/6229048)
 * 芳仔小脚印的OSC-Blog -- [分分钟学会正则表达式](http://my.oschina.net/joanfen/blog/415076?fromerr=YekKe49J)
+
+#### 线程安全Thread Safety
+* stackoverflow -- [Aotomic properties vs Thread Safety](http://stackoverflow.com/questions/21098494/atomic-properties-vs-thread-safe-in-objective-c)
+* Learn is Tasty -- (iOS Multithreading: Thread Safety in iOS Applications)[http://sodecon.blogspot.com/2012/08/ios-multithreading-thread-safety-in-ios.html]
+* stackoverflow -- (Does @synchronized guarantees thread safety or not)[http://stackoverflow.com/questions/15392726/does-synchronized-guarantees-for-thread-safety-or-not]
