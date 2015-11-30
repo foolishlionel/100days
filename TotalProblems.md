@@ -84,3 +84,9 @@ pod install
 * stackoverflow -- [Aotomic properties vs Thread Safety](http://stackoverflow.com/questions/21098494/atomic-properties-vs-thread-safe-in-objective-c)
 * Learn is Tasty -- (iOS Multithreading: Thread Safety in iOS Applications)[http://sodecon.blogspot.com/2012/08/ios-multithreading-thread-safety-in-ios.html]
 * stackoverflow -- (Does @synchronized guarantees thread safety or not)[http://stackoverflow.com/questions/15392726/does-synchronized-guarantees-for-thread-safety-or-not]
+
+20151130
+--------------
+#### XMPP and Socket
+* Quora -- (How does XMPP differ from socket)[https://www.quora.com/How-does-XMPP-differ-from-Sockets-Why-is-it-good-to-implement-XMPP-instead-of-Sockets-while-implementing-some-IM-based-app-What-options-as-an-Android-developer-do-we-have-besides-XMPP-if-we-want-to-build-an-IM-app]
+* stackoverflow -- (iOS difference between socket and XMPP)[http://stackoverflow.com/questions/7430567/difference-between-socket-connection-and-xmpp-connection]
