@@ -97,5 +97,5 @@ pod install
 * CocoaChina -- [Carthage：去中心化的Cocoa依赖管理器](http://www.cocoachina.com/ios/20141204/10528.html)
 
 #### Network Problems
-* www.webopedia.com -- [Difference between ipv4 and ipv6](http://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
+* webopedia -- [Difference between ipv4 and ipv6](http://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
 * stackoverflow -- [Difference between tcp and udp](http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp)
