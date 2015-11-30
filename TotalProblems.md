@@ -82,11 +82,20 @@ pod install
 -----------
 #### 线程安全Thread Safety
 * stackoverflow -- [Aotomic properties vs Thread Safety](http://stackoverflow.com/questions/21098494/atomic-properties-vs-thread-safe-in-objective-c)
-* Learn is Tasty -- (iOS Multithreading: Thread Safety in iOS Applications)[http://sodecon.blogspot.com/2012/08/ios-multithreading-thread-safety-in-ios.html]
-* stackoverflow -- (Does @synchronized guarantees thread safety or not)[http://stackoverflow.com/questions/15392726/does-synchronized-guarantees-for-thread-safety-or-not]
+* Learn is Tasty -- [iOS Multithreading: Thread Safety in iOS Applications](http://sodecon.blogspot.com/2012/08/ios-multithreading-thread-safety-in-ios.html)
+* stackoverflow -- [Does @synchronized guarantees thread safety or not](http://stackoverflow.com/questions/15392726/does-synchronized-guarantees-for-thread-safety-or-not)
 
 20151130
 --------------
 #### XMPP and Socket
-* Quora -- (How does XMPP differ from socket)[https://www.quora.com/How-does-XMPP-differ-from-Sockets-Why-is-it-good-to-implement-XMPP-instead-of-Sockets-while-implementing-some-IM-based-app-What-options-as-an-Android-developer-do-we-have-besides-XMPP-if-we-want-to-build-an-IM-app]
-* stackoverflow -- (iOS difference between socket and XMPP)[http://stackoverflow.com/questions/7430567/difference-between-socket-connection-and-xmpp-connection]
+* Quora -- [How does XMPP differ from socket])https://www.quora.com/How-does-XMPP-differ-from-Sockets-Why-is-it-good-to-implement-XMPP-instead-of-Sockets-while-implementing-some-IM-based-app-What-options-as-an-Android-developer-do-we-have-besides-XMPP-if-we-want-to-build-an-IM-app)
+* stackoverflow -- [iOS difference between socket and XMPP](http://stackoverflow.com/questions/7430567/difference-between-socket-connection-and-xmpp-connection)
+* apple document -- [iOS socket programming guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/UsingSocketsandSocketStreams.html)
+
+#### new library manager for iOS
+* www.isaced.com -- [Cocoa 新的依赖管理工具：Carthage](http://www.isaced.com/post-265.html)
+* CocoaChina -- [Carthage：去中心化的Cocoa依赖管理器](http://www.cocoachina.com/ios/20141204/10528.html)
+
+#### Network Problems
+* [Difference between ipv4 and ipv6](http://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
+* [Difference between tcp and udp](http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp)
