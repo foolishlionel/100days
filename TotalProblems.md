@@ -88,7 +88,7 @@ pod install
 20151130
 --------------
 #### XMPP and Socket
-* Quora -- [How does XMPP differ from socket])https://www.quora.com/How-does-XMPP-differ-from-Sockets-Why-is-it-good-to-implement-XMPP-instead-of-Sockets-while-implementing-some-IM-based-app-What-options-as-an-Android-developer-do-we-have-besides-XMPP-if-we-want-to-build-an-IM-app)
+* Quora -- [How does XMPP differ from socket](https://www.quora.com/How-does-XMPP-differ-from-Sockets-Why-is-it-good-to-implement-XMPP-instead-of-Sockets-while-implementing-some-IM-based-app-What-options-as-an-Android-developer-do-we-have-besides-XMPP-if-we-want-to-build-an-IM-app)
 * stackoverflow -- [iOS difference between socket and XMPP](http://stackoverflow.com/questions/7430567/difference-between-socket-connection-and-xmpp-connection)
 * apple document -- [iOS socket programming guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/UsingSocketsandSocketStreams.html)
 
