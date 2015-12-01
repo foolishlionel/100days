@@ -93,9 +93,19 @@ pod install
 * apple document -- [iOS socket programming guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/NetworkingTopics/Articles/UsingSocketsandSocketStreams.html)
 
 #### new library manager for iOS
-* www.isaced.com -- [Cocoa 新的依赖管理工具：Carthage](http://www.isaced.com/post-265.html)
+* isaced -- [Cocoa 新的依赖管理工具：Carthage](http://www.isaced.com/post-265.html)
 * CocoaChina -- [Carthage：去中心化的Cocoa依赖管理器](http://www.cocoachina.com/ios/20141204/10528.html)
 
 #### Network Problems
 * webopedia -- [Difference between ipv4 and ipv6](http://www.webopedia.com/DidYouKnow/Internet/ipv6_ipv4_difference.html)
 * stackoverflow -- [Difference between tcp and udp](http://stackoverflow.com/questions/5970383/difference-between-tcp-and-udp)
+
+20151201
+-----------
+#### Usage of CocoaPods
+* csdn -- [iOS开发~CocoaPods使用详细说明](http://blog.csdn.net/showhilllee/article/details/38398119) 解释：之前在自己的电脑上面安装，出现各种问题，导致自己觉得pods使用未免太过繁琐，后来在公司使用Pods，参照本篇教程，一次就安装成功了，我的内心真的是有点崩溃啊。
+
+#### NSRecursiveLock
+* CocoaChina -- [NSRecursiveLock递归锁的使用](http://www.cocoachina.com/ios/20150513/11808.html) NSRecursiveLock实际上定义的是一个递归锁，这个锁可以被同一线程多次请求而不会引起死锁。这主要用在循环或递归操作中。
+* Sina Blog -- [几种不同的锁](http://blog.sina.com.cn/s/blog_8c87ba3b0101ok8y.html)
+
