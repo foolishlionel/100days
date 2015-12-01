@@ -109,3 +109,12 @@ pod install
 * CocoaChina -- [NSRecursiveLock递归锁的使用](http://www.cocoachina.com/ios/20150513/11808.html) NSRecursiveLock实际上定义的是一个递归锁，这个锁可以被同一线程多次请求而不会引起死锁。这主要用在循环或递归操作中。
 * Sina Blog -- [几种不同的锁](http://blog.sina.com.cn/s/blog_8c87ba3b0101ok8y.html)
 
+#### NSCoding,NSSecureCoding以及NSCopying协议
+
+#### Runloop的切换
+
+#### NSURLCredential身份认证
+
+#### dispatch_queue_t
+
+#### dispatch_group_t
