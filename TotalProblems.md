@@ -116,8 +116,11 @@ pod install
 
 #### NSURLCredential身份认证
 
+20151103
+---------------
 #### dispatch_queue_t
 * cnblog -- [iOS多线程的初步研究](http://www.cnblogs.com/sunfrog/p/3305614.html)
 
 #### dispatch_group_t
 * commandshift -- [Using dispatch groups](http://commandshift.co.uk/blog/2014/03/19/using-dispatch-groups-to-wait-for-multiple-web-services/)
+* cnblog -- [dispatch_group_t](http://www.cnblogs.com/chinaxxren/p/3457814.html)
