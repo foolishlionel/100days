@@ -110,7 +110,8 @@ pod install
 * Sina Blog -- [几种不同的锁](http://blog.sina.com.cn/s/blog_8c87ba3b0101ok8y.html)
 
 #### NSCoding,NSSecureCoding以及NSCopying协议
-
+* Apple Document -- [NSCoding Protocol Reference](https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/index.html)
+* Apple Document -- [Encoding and Decoding Objects](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Archiving/Articles/codingobjects.html)
 #### Runloop的切换
 
 #### NSURLCredential身份认证
