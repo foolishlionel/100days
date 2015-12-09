@@ -112,6 +112,7 @@ pod install
 #### NSCoding,NSSecureCoding以及NSCopying协议
 * Apple Document -- [NSCoding Protocol Reference](https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Reference/Foundation/Protocols/NSCoding_Protocol/index.html)
 * Apple Document -- [Encoding and Decoding Objects](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/Archiving/Articles/codingobjects.html)
+* blog.jobbole.com -- [使用NSSecureCoding协议进行对象编解码](http://blog.jobbole.com/67655/)
 
 #### Runloop的切换
 
@@ -129,3 +130,8 @@ pod install
 20151204
 -------------
 * cocoachina -- [iOS 事件处理机制与图像渲染过程](http://www.cocoachina.com/ios/20151203/14549.html)
+
+
+20151209
+-------------
+* WX_cocoachina -- [利用OC的消息转发机制实现多重代理](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401491246&idx=2&sn=2b8c0ed80b684b4284221667460fd19d&scene=23&srcid=1209xMI6SVfocytUqn0WrdHn#rd)
