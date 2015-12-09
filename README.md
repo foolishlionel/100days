@@ -26,3 +26,5 @@ one hundred days to improve myself
 20. React Native的使用
 21. Reactive Cocoa（RAC的使用）
 22. iOS App的文件系统和沙盒机制
+23. Objective-C运行时特性 - 消息转发机制
+24. iPhone屏幕相关 -- 屏幕适配，横竖屏的操作
