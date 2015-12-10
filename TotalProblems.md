@@ -135,3 +135,9 @@ pod install
 20151209
 -------------
 * WX_cocoachina -- [利用OC的消息转发机制实现多重代理](http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=401491246&idx=2&sn=2b8c0ed80b684b4284221667460fd19d&scene=23&srcid=1209xMI6SVfocytUqn0WrdHn#rd)
+
+20151210
+-------------
+* isaced -- [HTTP content-type与AFNetworking](http://www.isaced.com/post-254.html)，是searilization相关，对返回结果进行序列化和格式化。
+* CocoaChina -- [那些不能错过的Xcode插件](http://www.cocoachina.com/industry/20130918/7022.html)，觉得VVDocument和XVim插件不错哦。
+* CocoaChina -- [专业程序员必习，最牛逼的编码套路](http://www.cocoachina.com/programmer/20151125/14365.html)
