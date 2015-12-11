@@ -146,3 +146,7 @@ pod install
 --------------
 * segmentfault -- [当我们谈论网络时候，我们在谈论什么（一）：我们如何接入因特网](http://segmentfault.com/a/1190000004094420)，说到了路由器、交换机的作用，说到到分配IP的过程，说到Mac地址的作用，然而我并没有看懂额。
 * segmentfault -- [当我们谈论网络时候，我们在谈论什么（二）：DNS的工作原理](http://segmentfault.com/a/1190000004127680)，DNS（Domain Name System），就是域名系统喽，就是把在上网的时候，将浏览器输入的域名--www.baidu.com for example，转换成对应的IP地址。其实我们访问网络，就是访问远程主机的资源了吧。
+* CIMGF(Cocoa is My Girl Friend) -- [Cocoa Tutorial NSOperation and NSOperationQueue](http://www.cimgf.com/2008/02/16/cocoa-tutorial-nsoperation-and-nsoperationqueue/)
+* stackoverflow -- [NSOperation on iPhone](http://stackoverflow.com/questions/830218/nsoperation-on-the-iphone)，一些不错的回答。
+* Apple Document -- [Selector](https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/Selector.html)，说明了一下selector的作用和简单使用。
+* NSHipster -- [NSOperation](http://nshipster.com/nsoperation/)
