@@ -28,3 +28,5 @@ one hundred days to improve myself
 22. iOS App的文件系统和沙盒机制
 23. Objective-C运行时特性 - 消息转发机制
 24. iPhone屏幕相关 -- 屏幕适配，横竖屏的操作
+25. iOS TableView的复用机制
+26. iOS Collection的简单使用，以及实现多种切换动画
