@@ -141,3 +141,8 @@ pod install
 * isaced -- [HTTP content-type与AFNetworking](http://www.isaced.com/post-254.html)，是searilization相关，对返回结果进行序列化和格式化。
 * CocoaChina -- [那些不能错过的Xcode插件](http://www.cocoachina.com/industry/20130918/7022.html)，觉得VVDocument和XVim插件不错哦。
 * CocoaChina -- [专业程序员必习，最牛逼的编码套路](http://www.cocoachina.com/programmer/20151125/14365.html)
+
+20151211
+--------------
+* segmentfault -- [当我们谈论网络时候，我们在谈论什么（一）：我们如何接入因特网](http://segmentfault.com/a/1190000004094420)，说到了路由器、交换机的作用，说到到分配IP的过程，说到Mac地址的作用，然而我并没有看懂额。
+* segmentfault -- [当我们谈论网络时候，我们在谈论什么（二）：DNS的工作原理](http://segmentfault.com/a/1190000004127680)，DNS（Domain Name System），就是域名系统喽，就是把在上网的时候，将浏览器输入的域名--www.baidu.com for example，转换成对应的IP地址。其实我们访问网络，就是访问远程主机的资源了吧。
