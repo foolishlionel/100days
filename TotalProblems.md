@@ -154,6 +154,7 @@ pod install
 20151214 - Monday
 --------------
 * CocoaChina -- [AFNetworking 2.0源代码解析（一）](http://www.cocoachina.com/ios/20140829/9480.html)
+
 ##### A.锁
 AFURLConnectionOperation 有一把递归锁，再所有会访问/修改成员变量的对外接口都加了锁，因为这些对外的接口用户是可以在任意线程调用的，对于访问和修改成员变量的接口，必须用递归锁保证线程安全。
 
