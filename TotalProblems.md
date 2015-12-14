@@ -150,3 +150,20 @@ pod install
 * stackoverflow -- [NSOperation on iPhone](http://stackoverflow.com/questions/830218/nsoperation-on-the-iphone)，一些不错的回答。
 * Apple Document -- [Selector](https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/Selector.html)，说明了一下selector的作用和简单使用。
 * NSHipster -- [NSOperation](http://nshipster.com/nsoperation/)
+
+20151214 - Monday
+--------------
+* CocoaChina -- [AFNetworking 2.0源代码解析（一）](http://www.cocoachina.com/ios/20140829/9480.html)
+##### A.锁
+AFURLConnectionOperation 有一把递归锁，再所有会访问/修改成员变量的对外接口都加了锁，因为这些对外的接口用户是可以在任意线程调用的，对于访问和修改成员变量的接口，必须用递归锁保证线程安全。
+
+##### B.序列化
+AFNetworking多数类都支持序列化，但实现的是NSSecureCoding的接口，而不是NSCoding，区别在于“解码”数据时候需要指定Class，用-decodeObjectOfClass:forKey:方法代替了-decodeObjectForKey:。这样做更加安全，因为序列化后的数据有可能被篡改，若不指定Class，-decde出来的对象可能不是原来的对象，有潜在风险。另外，NSSecureCoding是iOS 6以上才有的。
+这里在序列化时，保存了当前任务状态，接收的数据等，但回调block是保存不了的，需要在取出来发送时候重新设置。可以向下面这样持久化保存和取出任务：
+```Objective-C
+AFHTTPRequestOperation *operation = [[AFHttpRequestOperation alloc] initWithRequest:request];
+NSData *data = [NSKeyedArchiver archivedDataWithRootObject:operation];
+
+AFHTTPRequestOperation *operationFromDB = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+[operationFromDB start];
+```
