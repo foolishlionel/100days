@@ -173,6 +173,7 @@ AFHTTPRequestOperation *operationFromDB = [NSKeyedUnarchiver unarchiveObjectWith
 20151215 - Tuesday
 ----------------
 * CSDN - [iOS TableView中cell的重用reuse机制分析](http://blog.csdn.net/kiki1985/article/details/8772213)
+
 ###### 重用实现分析
 查看UITableView头文件，会找到NSMutableArray *visiableCells和NSMutableDictionary *reuseableTableCells两个结构，visiableCells内保存当前显示的cells，reuseableTableCells保存可重用的 cells。
 TableView显示之初，reuseableTableCells为空，那么[table dequeueReusableCellWithIdentifier:kCellIdentifier];返回nil。开始的cell都是通过[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];来创建，而且cellForRowAtIndexPath只是调用最大显示cell数的次数。
