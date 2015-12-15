@@ -169,3 +169,17 @@ AFHTTPRequestOperation *operationFromDB = [NSKeyedUnarchiver unarchiveObjectWith
 [operationFromDB start];
 ```
 * cnblog -- [python爬虫学习系列教程](http://www.cnblogs.com/xin-xin/p/4297852.html)
+
+20151215 - Tuesday
+----------------
+* CSDN - [iOS TableView中cell的重用reuse机制分析](http://blog.csdn.net/kiki1985/article/details/8772213)
+###### 重用实现分析
+查看UITableView头文件，会找到NSMutableArray *visiableCells和NSMutableDictionary *reuseableTableCells两个结构，visiableCells内保存当前显示的cells，reuseableTableCells保存可重用的 cells。
+TableView显示之初，reuseableTableCells为空，那么[table dequeueReusableCellWithIdentifier:kCellIdentifier];返回nil。开始的cell都是通过[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];来创建，而且cellForRowAtIndexPath只是调用最大显示cell数的次数。
+比如：有100条数据，iPhone一屏幕最多显示10个cell，程序最开始显示TableView的情况如下，
+首先，用[[UITableViewCell alloc] initWithStyle:UItableViewCellStyleDefault reuseIdentifier:kCellIdentifier]创建十个cell，并且给cell制定同样的重用标识，并且10个cell全部添加到visiableCells数组，reusableTableCells为空；
+接着，向下拖动tableView，当cell1完全移动出屏幕，并且cell11完全显示出来的时候，cell11添加到visiableCell数组，cell1移动出visiableCells数组，cell1加入到reuseableTableCells字典中；
+接下来，继续向下拖动tableView，因为reusableTableCells中已经有值，所以，当需要显示新的cell，cellForRowAtIndexPath再次被调用的时候，[tableView dequeueReusableCellWithIdentifierLkCellIdentifier]，返回cell1。cell1加入到visiableCells，cell1移除reusableTableCells。
+以上，整个过程并不难理解，但需要注意正式这样的原因，配置 cell的时候一定要注意，对去除的重用的cell做重新复制，不要遗留老的数据。
+
+
