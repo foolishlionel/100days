@@ -186,4 +186,4 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 接下来，继续向下拖动tableView，因为reusableTableCells中已经有值，所以，当需要显示新的cell，cellForRowAtIndexPath再次被调用的时候，[tableView dequeueReusableCellWithIdentifierLkCellIdentifier]，返回cell1。cell1加入到visiableCells，cell1移除reusableTableCells。
 以上，整个过程并不难理解，但需要注意正式这样的原因，配置 cell的时候一定要注意，对去除的重用的cell做重新复制，不要遗留老的数据。
 
-
+* segmentfault -- [漫谈iOS程序的证书和签名机制](http://segmentfault.com/a/1190000004144556)，这篇文章说的真的不错，对于证书和代码签名的解释值得反复回味，其实我到现在还是有很多的不明白啊，特别是公钥和私钥产生的方式，还是要不断地想啊想啊。
