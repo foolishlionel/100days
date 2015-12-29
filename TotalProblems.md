@@ -209,3 +209,6 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 20151229 -- Tuesday
 ------------------
 * skyfox -- [iOS学习路线](http://ios.skyfox.org/route.html)
+* 知乎专栏 -- [如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)
+* 知乎专栏 -- [为什么你应该先成为全栈工程师](http://zhuanlan.zhihu.com/phodal/20439045)
+* 直呼专栏 -- [成为一名优秀的Developer的书单](http://zhuanlan.zhihu.com/phodal/20436712)
