@@ -212,3 +212,7 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 * 知乎专栏 -- [如何用Github去管理你的Idea](http://zhuanlan.zhihu.com/phodal/20442311)
 * 知乎专栏 -- [为什么你应该先成为全栈工程师](http://zhuanlan.zhihu.com/phodal/20439045)
 * 直呼专栏 -- [成为一名优秀的Developer的书单](http://zhuanlan.zhihu.com/phodal/20436712)
+
+20160104 -- Monday
+-------------
+* csdn -- [专栏：Python爬虫入门教程](http://blog.csdn.net/column/details/why-bug.html)
