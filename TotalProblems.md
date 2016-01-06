@@ -216,3 +216,7 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 20160104 -- Monday
 -------------
 * csdn -- [专栏：Python爬虫入门教程](http://blog.csdn.net/column/details/why-bug.html)
+
+20160106 -- Wensday
+-------------
+* 知乎 -- [Unicode和UTF-8的区别](http://www.zhihu.com/question/23374078)
