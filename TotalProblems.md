@@ -220,3 +220,8 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 20160106 -- Wensday
 -------------
 * 知乎 -- [Unicode和UTF-8的区别](http://www.zhihu.com/question/23374078)
+
+20160113 -- Wensday
+-----------
+* aosabook - [Secrets of Mobile Network Performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)
+* product.hubspot - [Using CocoaPods to Modularize a big iOS app](http://product.hubspot.com/blog/architecting-a-large-ios-app-with-cocoapods)
