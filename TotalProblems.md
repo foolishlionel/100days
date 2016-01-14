@@ -229,3 +229,4 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 20160114 - Thursday
 --------
 * 360Document - [跳转到App Store的两种方式-直接跳转和应用内跳转](http://www.360doc.com/content/15/0914/18/8772388_499127122.shtml)
+* CSDN - [iOS7跳转到App Store评分](http://blog.csdn.net/yangzhen19900701/article/details/42706189)
