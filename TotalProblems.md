@@ -225,3 +225,7 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 -----------
 * aosabook - [Secrets of Mobile Network Performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)
 * product.hubspot - [Using CocoaPods to Modularize a big iOS app](http://product.hubspot.com/blog/architecting-a-large-ios-app-with-cocoapods)
+
+20160114 - Thursday
+--------
+* 360Document - [跳转到App Store的两种方式-直接跳转和应用内跳转](http://www.360doc.com/content/15/0914/18/8772388_499127122.shtml)
