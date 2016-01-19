@@ -226,7 +226,13 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 * aosabook - [Secrets of Mobile Network Performance](http://aosabook.org/en/posa/secrets-of-mobile-network-performance.html)
 * product.hubspot - [Using CocoaPods to Modularize a big iOS app](http://product.hubspot.com/blog/architecting-a-large-ios-app-with-cocoapods)
 
-20160114 - Thursday
+20160114 -- Thursday
 --------
 * 360Document - [跳转到App Store的两种方式-直接跳转和应用内跳转](http://www.360doc.com/content/15/0914/18/8772388_499127122.shtml)
 * CSDN - [iOS7跳转到App Store评分](http://blog.csdn.net/yangzhen19900701/article/details/42706189)
+
+20160119 -- Tuesday
+------------
+* Stackoverflow - [What does enable_bitcode do in Xcode7](http://stackoverflow.com/questions/30722606/what-does-enable-bitcode-do-in-xcode-7)
+* Quora - [What is Apple bitcode](https://www.quora.com/What-is-Apple-Bitcode)
+* Apple Document - [App thinning](https://developer.apple.com/library/tvos/documentation/IDEs/Conceptual/AppDistributionGuide/AppThinning/AppThinning.html)
