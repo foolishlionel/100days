@@ -236,3 +236,7 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 * Stackoverflow - [What does enable_bitcode do in Xcode7](http://stackoverflow.com/questions/30722606/what-does-enable-bitcode-do-in-xcode-7)
 * Quora - [What is Apple bitcode](https://www.quora.com/What-is-Apple-Bitcode)
 * Apple Document - [App thinning](https://developer.apple.com/library/tvos/documentation/IDEs/Conceptual/AppDistributionGuide/AppThinning/AppThinning.html)
+
+20160120 -- Wednesday
+* Stackoverflow - [Native facebook app does not open with facebook login](http://stackoverflow.com/questions/32566734/native-facebook-app-does-not-open-with-facebook-login-in-ios-9)
+* 
