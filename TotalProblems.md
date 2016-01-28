@@ -239,4 +239,6 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 
 20160120 -- Wednesday
 * Stackoverflow - [Native facebook app does not open with facebook login](http://stackoverflow.com/questions/32566734/native-facebook-app-does-not-open-with-facebook-login-in-ios-9)
-* 
+
+20160128 -- Thursday
+* cnblog - [三十分钟入门正则表达式](http://www.cnblogs.com/jy578154186/archive/2012/10/22/2734262.html)
