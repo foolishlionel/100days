@@ -242,3 +242,7 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 
 20160128 -- Thursday
 * cnblog - [三十分钟入门正则表达式](http://www.cnblogs.com/jy578154186/archive/2012/10/22/2734262.html)
+
+20160201 -- Monday
+* csdn - [VPN原理及实现](http://blog.csdn.net/dog250/article/details/5588607)
+* h3c - [技术点详解 -- SSL VPN](http://www.h3c.com.cn/MiniSite/Technology_Circle/Technology_Column/ICG/ICG_Technology/201008/686807_97665_0.htm)
