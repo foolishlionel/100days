@@ -125,7 +125,7 @@ iOS在系统几倍有一个推送服务程序使用5223端口。使用这个端�
 
 这个消息的内容是这样的，
 
-![iOS推送消息的结构](push_message_struct_image_todo_list)
+![iOS推送消息的结构](https://github.com/foolishlionel/onehundred-days/blob/master/images/push_message_struct.jpg)
 
 应该说，苹果这种方式在技术上没有什么创新。但是整个架构是很了不起的。因为：
 
@@ -172,7 +172,7 @@ Windows系统默认PPI是96，Mac OS系统默认PPI是72.一般费视网膜屏�
 
 视网膜屏幕与PPI：视网膜屏幕是在iPhone4发布时进入大众视野的，叫视网膜是因为屏幕的PPI高到人的肉眼无法看到像素点。从技术上来说就是他们在物理尺寸与上一代相同的屏幕上塞了2倍的像素，如下图所示，
 
-![Retina Screen](retina_screen_image_todo_list)
+![Retina Screen](https://github.com/foolishlionel/onehundred-days/blob/master/images/retina_screen.png)
 
 这种情况下，不苏傲笑元素的大小，相同尺寸屏幕上的元素精度提高了2倍。原来一个像素的空间现在有4个像素，像素是原来的4倍。
 
@@ -185,15 +185,15 @@ iPhone 4和iPhone 3GS的屏幕尺寸实际上是一样的，都是3.5英寸。�
 #### 2. pt和px有什么不同？
 pt（Point）代表点，px（Piexl）表示像素，这是两个看起来很像、却完全不一样的单位，在某些场合它们是1：1的，在很多时候却常常被搞混，或是制作过程根本没有分清楚、导致结果不准确。在绘图软件里面可以看到基本单位设定里面就有这两个选择，
 
-![pt px](pt_px_selection_image_todo_list)
+![pt px](https://github.com/foolishlionel/onehundred-days/blob/master/images/pt_px_selection.png)
 
 px，即是pixel，表示像素。是屏幕上所显示的最小单位，在分辨率高的屏幕上，一个像素可能会达到肉眼无法识别的大小，
 
-![retina](retina_with_nonretina_image_todo_list)
+![retina](https://github.com/foolishlionel/onehundred-days/blob/master/images/retina_with_nonretina.jpg)
 
 pt，即是point，是一个标准的长度单位，定义上1pt = 1/72英寸，英雌他跟我们所熟悉的公分、公尺一样，可以明确的指出1pt的长度是多少，
 
-![pt长度](pt_length_image_todo_list)
+![pt长度](https://github.com/foolishlionel/onehundred-days/blob/master/images/pt_length.jpg)
 
 pt也是常见的标识文字尺寸的单位，在绘图以及文书软件等几乎都是使用pt作为字体标尺的单位，故一般称呼[字级]时候，通常即是指pt。
 
