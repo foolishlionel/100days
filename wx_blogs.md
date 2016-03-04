@@ -117,7 +117,7 @@ HTTP服务器，默认端口号为80/tcp，木马Executor开放次端口；HTTPS
 #### 1.3 iOS系统推送的原理是什么
 iOS在系统几倍有一个推送服务程序使用5223端口。使用这个端口的协议源于Jbber，后来发展为XMPP，被用于Gtalk等IM软件中。
 
-![5223端口](5223_port_image_todo_list)
+![5223端口](https://github.com/foolishlionel/onehundred-days/blob/master/images/5223port.png)
 
 所以，iOS的推送，可以不严谨的理解为：
 
