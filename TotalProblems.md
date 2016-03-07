@@ -246,3 +246,7 @@ TableView显示之初，reuseableTableCells为空，那么[table dequeueReusable
 20160201 -- Monday
 * csdn - [VPN原理及实现](http://blog.csdn.net/dog250/article/details/5588607)
 * h3c - [技术点详解 -- SSL VPN](http://www.h3c.com.cn/MiniSite/Technology_Circle/Technology_Column/ICG/ICG_Technology/201008/686807_97665_0.htm)
+
+20160307 -- Monday
+-----------------
+Yoho Application是公司主打的一款资讯浏览的App，该App主要包括普通资讯浏览、热门视频播放、电子杂志阅读、内容分享到各大社交平台等基础功能。这款App开发的初衷是将公司的杂志业务从线下迁移到线上，并且在推广过程中找到了新的用户关注点。Yoho iOS版本上架App Store一周时间就冲击到了潮流资讯类App的榜首，这并不是一个偶然，一款App是否吸引人，主要是看这款App的内容是否丰富、使用是否流畅、用户交互是否合理，Yoho作为一款资讯浏览App，主打“内容为王”，及时发布、更新最新的潮流资讯，并且对用户体验不断优化。
