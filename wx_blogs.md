@@ -354,7 +354,7 @@ BTW：从某种程度上来说，今日的公务员热也与此有关。随着�
 
 20160408
 =========
-当加班成为常态
+# 当加班成为常态
 
 summary概要：年轻时候加班那叫激情，年纪大了那叫什么啊？
 
@@ -363,3 +363,32 @@ summary概要：年轻时候加班那叫激情，年纪大了那叫什么啊？
 ## 大公司如此，小公司也是如此
 
 ## 
+
+
+# Swift语言编程规范
+
+## 懒加载
+
+## ?和!的使用
+
+## extension和protocol
+
+## private和public
+
+## var和let
+
+## var variable = {}()什么鬼
+
+## init和deinit
+
+## 与Objective-C桥接
+
+Build Settings -> Swift Compiler - Code Generation -> Objective-C Briding Header = file_path
+
+## [String : String]是什么类型
+
+## static
+
+### static var variableName
+
+### static func funcName
