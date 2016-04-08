@@ -476,32 +476,110 @@ summary概要：年轻时候加班那叫激情，年纪大了那叫什么啊？
 
 
 
-# Swift语言编程规范
+# Swift编程细节
 
 ## 懒加载
+懒加载也就是延时加载，是一种将对象的创建或其他高负荷操作延迟到真正执行时才执行的机制，当为iOS进行编程时，仅在需要时才分配内存，这样对小内存的iOS设备来说非常实用，
+### Swift方式的懒加载
+在Swift中，只需要一行代码即可实现此机制，
+
+```
+// 请勿遗漏后面的小括号
+lazy var name = String()
+```
+
+### 闭包与延迟加载
+如果你想给延迟加载加上一些逻辑处理，Swift允许你在属性后面定义一个闭包调用，闭包的返回值会作为属性的默认值，如下代码所示，
+
+```
+lazy var players:[String] = {
+        var temporaryPlayers = [String]()
+        temporaryPlayers.append("Mike Buss")
+        return temporaryPlayers
+        }()
+```
+
+### var variable = {}()是什么
 
 ## ?和!的使用
+### 可选值 - Optional
 
-## extension和protocol
+声明一个Optional的String类型的变量，只需要在定义变量的时候在类型后面加上一个`?`
 
-## private和public
+```
+var name: String?
+```
 
-## var和let
+如果这个变量是定义成`Optional`的，我们在引用它的时候就必须做一些特殊的处理，可以使用强制解包，如下所示，
 
-## var variable = {}()什么鬼
+```
+print(name!)
+```
 
-## init和deinit
+在变量后面添加一个`!`，相当于告诉编译器，我确信这个变量不是`nil`，可以直接使用。当然使用强制解包只代表你自己确认它不是nil，但它还是有可能是`nil`的，如果这样的情况发生，依然会造成程序运行时崩溃。
+
+相比使用强制解包，更加安全和优雅的方式是使用`Optioal Chaining`：
+
+```
+var name: String?
+name = "call me 97"
+if let nameValue = name {
+ print(nameValue)
+}
+```
+
+使用`if let`这样的语法就可以更加安全地操作Optional值，只有在name中的值不为nil的时候，nameValue变量才会被初始化，这样我们的print语句就不会因为nil而崩溃。
+
+虽然我们使用Objective-C时候也可以进行类似这样的判断`if value != nil {}`，但Optional的好处是，它是编译级别的，只要一个值被标识成Optional的，它就必须在引用的时候进行非空判断，无论你使用强制解包还是Optional Chaining，这样我们代码的类型安全就得到很大的增强。
+
+## extension和protocol结合实用
+
+当实现Protocol协议时候，推荐添加一个单独的Class Extension来实现Protocol协议中的方法，这样可以协议中相关的方法可以组织在一块，并且可以简单地将protocol协议以及它相关的方法添加到类中。
+
+### 推荐如下实现协议的方式
+
+```
+class MyViewcontroller: UIViewController {
+  // class stuff here
+}
+
+// MARK: - UITableViewDataSource
+extension MyViewcontroller: UITableViewDataSource {
+  // table view data source methods
+}
+
+// MARK: - UIScrollViewDelegate
+extension MyViewcontroller: UIScrollViewDelegate {
+  // scroll view delegate methods
+}
+```
+
+### 不推荐下面实现协议的方式
+
+```
+class MyViewcontroller: UIViewController, UITableViewDataSource, UIScrollViewDelegate {
+  // all methods
+}
+
+```
+
 
 ## 与Objective-C桥接
 
+为了达到Swift和Objective-C混编的目的，需要使用Bridge桥接功能，方法就是新建一个头文件，例如`Walkout-Bridging-Header.h`，将需要桥接的Objective-C的相关类头文件导入，例如下面代码所示，
+
+```
+// Walkout-Bridging-Header.h
+#import SVProgressHUD.h
+#import MJRefresh.h
+#import "UIImageView+WebCache.h"
+```
+
+然后在项目的设置项中，设置Objective-C Briding Header选项，
+```
+// file_path是Walkout-Bridging-Header.h在项目中的路径
 Build Settings -> Swift Compiler - Code Generation -> Objective-C Briding Header = file_path
+```
 
-## [String : String]是什么类型
-
-## static
-
-### static var variableName
-
-### static func funcName
-
+Command+B编译如果没有问题，那么就可以使用Swift的语法来调用Objective-C类的功能了。
 
