@@ -469,4 +469,3 @@ Command+B编译如果没有问题，那么就可以使用Swift的语法来调用
 1. stackoverflow -- [What is optional value in Swift](http://stackoverflow.com/questions/24003642/what-is-an-optional-value-in-swift)
 2. [what is an optional in Swift](http://www.drewag.me/posts/what-is-an-optional-in-swift#implicitly-unwrapped-optional)
 3. [Apple Document](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html)
-4. 
