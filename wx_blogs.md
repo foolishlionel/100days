@@ -474,3 +474,7 @@ Command+B编译如果没有问题，那么就可以使用Swift的语法来调用
 
 20160412
 ==============
+##### [guard is safety](https://github.com/github/swift-style-guide)
+You can also do it with if statement, but using guard is prefered, because guard statement without return, break or continue produces a compile-time error, so exit is guaranteed.
+
+#####
