@@ -477,4 +477,8 @@ Command+B编译如果没有问题，那么就可以使用Swift的语法来调用
 ##### [guard is safety](https://github.com/github/swift-style-guide)
 You can also do it with if statement, but using guard is prefered, because guard statement without return, break or continue produces a compile-time error, so exit is guaranteed.
 
-#####
+20160413
+==========
+#### swift nil
+1. stackoverflow -- [null / nil in swift language](http://stackoverflow.com/questions/24043589/null-nil-in-swift-language)
+2. drewag.me -- [what is an optional in swift](http://www.drewag.me/posts/what-is-an-optional-in-swift)
