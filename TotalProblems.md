@@ -282,3 +282,9 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 
 ### 20160407
 1. 廖雪峰的博客站点，[廖雪峰博客](http://www.liaoxuefeng.com/)
+
+
+20160414
+==========
+1. django web开发，[自强学堂](http://www.ziqiangxuetang.com/django/django-tutorial.html)
+2. 
