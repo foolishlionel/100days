@@ -482,3 +482,169 @@ You can also do it with if statement, but using guard is prefered, because guard
 #### swift nil
 1. stackoverflow -- [null / nil in swift language](http://stackoverflow.com/questions/24043589/null-nil-in-swift-language)
 2. drewag.me -- [what is an optional in swift](http://www.drewag.me/posts/what-is-an-optional-in-swift)
+
+
+20160414
+==============
+# Optaional and nil in swift
+
+在Objective-C中使用下面四个关键字表示空，
+
+- null
+- nil
+- Nil
+- [NSNull null]
+
+那么在swift语言中，有哪些关键字与上面的四个Objective-C关键字对应呢？
+
+## Swift中的`空`
+在Swift中找寻与Objective-C的空一一对应，如下所列，
+
+- `NULL`在swift中没有对应的关键字
+- `nil`对应swift中的`nil`
+- `Nil`在swift中没有对应的关键字
+- `[NSNull null]`对应swift中的`NSNull()`
+
+但是swift中的nil和Objective-C中的nil并不是一回事，在Objective-C中，nil是一个指向空对象（non-existent object）的指针；在swift中，nil不是一个指针，它代表某一个类型的数据的值的缺省（absense）。任何类型的optional可选值变量都可以设置为nil，包括对象变量（object type）、枚举和结构体struct等，反之如果变量是`非可选变量（non-optional）`不能被赋值为nil，即使它是对象类型的。
+
+## nil的核心概念
+Swift中nil的核心概念与`Optional`枚举类型相关，`Optional`枚举类型的定义如下代码所示，
+
+```
+// Swift
+enum Optional<T> {
+	case Some(T)
+	case None
+}
+```
+这意味着在swift中，你不能尝试将一个变量或常量置为空，如果你这么尝试，就会产生一个编译错误，提示该`vaiable变量 / constant常量`不能被置空（uninitialise），如果你想将其置为空则需要使用optional枚举值将其包装（wrap）。
+
+> 定义optional可选值，只要在类型后面添加`?`，例如var name: String?，这个过程相当于对name包装（wrap），如果想要使用name值，则需要对其解包（unwrap）。
+
+## nil和optional存在的意义
+在swift中，nil和optional紧密相关，想要了解可选值optiaonal和nil的意义，就需要类比一下Objective-C或者其他类型的语言，相比Objective-C或C语言，swift被定义是更加安全的语言，这是为什么呢？
+
+### 传统语言存在的问题
+以C语言举栗，我们经常会定义一个没有赋值的变量，例如下面的代码所示，
+
+```
+int number;
+```
+如果在赋值之前使用这个变量，将有可能导致非常诡异的问题，因为这个变量被指向了内存中一个不确定的地址，说不定让你的内存爆炸哦^_^。
+
+为了代码更加安全，swift要求所有的变量或常量必须有一个值，这样就避免了在变量没有赋值的情况下导致的莫名其妙的异常。然而仍然会有这样一种情况，那就是希望变量或常量有个缺省值（absense of a value），最常见的一个栗子就是搜索，你希望搜索可以返回给你期望的结果，但其实什么也没有搜索到。
+
+### optional的由来
+为了让一个变量或常量体现缺省值，swift创建了`Optional`类型，`Optional`定义的可选值既可以不包含任何值（None），也可以包含某些值（Some）。就像前面所提及的，Optional枚举类型定义如下，
+
+```
+enum Optional {
+	case None
+	case Some(T)
+}
+```
+在定义一个可选optional类型时，在类型后面添加`?`，例如var name: String?。
+
+### 解包可选值
+在使用可选值之前，你必须对其解包（unwrap），这意味着你确定这个可选值包含一个值，之所以认为可选值是被包裹的（wrapped），是因为实际上真正的值被包含在枚举值内部，所以需要先解包咯。
+
+有两种方式解包可选值，第一种是可选绑定（optional binding），相对安全；另外一种是强制解包（forced unwrapping），不够安全。
+
+#### 可选绑定 -- Optional Binding
+```
+// Swift
+let possibleString: String? = "hello world"
+if let actualString = possibleString {
+	// actualString是`non-optional 非可选值`，
+	// 它的值等于存储在possibleString的字符串
+	println(actualString)
+} else {
+	// possibleString不包含任何值
+}
+```
+
+#### 强制解包 -- Forced Unwrapping
+如果你确定可选值包含一个具体的值，这时你可以使用`!`来进行强制解包，如下代码所示，
+
+```
+let possibleString: String? = "hello world"
+println(possibleString!)
+```
+
+需要注意的是，possibleString包含一个值只是你以为的，如果恰好它不包含一个值，这时候使用强制解包`possibleString!`还是会导致应用程序crash，所以说强制解包并安全。
+
+#### 隐式可选解包 -- Implicitly Unwrapped Optional
+隐式可选解包意味着一个可选值无需解包，因为它已经被隐式地解包了，隐式可选值使用`!`来代替`?`，如下代码所示，
+
+```
+let possibleString: String!
+println(possibleString)
+```
+就像强制解包，如果访问一个值为nil的隐式可选值，将会因为runtime错误导致应用程序crash。
+
+## 可选值的使用
+好了上面说了那么多，其实一句话总结：Optional值存在的意义就是避免使用未赋值的变量或常量，下面举例说明，
+
+```
+// temp varable or constant
+var name: String?
+print(name) // 编译错误，因为木有赋值就使用
+
+name = "hello world"
+print(name) // 编译正确
+```
+在看一个开源代码的范例，当然不一定是标准，只是作为一个参考，
+
+```
+class ExploreViewController: MainViewController, DoubleTextViewDelegate {
+    
+    private var doubleTextView: DoubleTextView!
+    private var albumTableView: MainTableView!
+    private var themes: ThemeModels?
+    private var events: EveryDays?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // 初始化美天tablieView
+        setdayTableView()
+        
+        // 初始化美辑tableView
+        setalbumTableView()
+        
+        // 下拉加载数据
+        dayTableView.header.beginRefreshing()
+        albumTableView.header.beginRefreshing()
+    }
+        
+        doubleTextView = DoubleTextView(leftText: "美天", rigthText: "美辑");
+        doubleTextView.frame = CGRectMake(0, 0, 120, 44)
+        doubleTextView.delegate = self
+        navigationItem.titleView = doubleTextView
+    }
+    
+    private func setdayTableView() {
+        dayTableView = MainTableView(frame: CGRectMake(0, 0, AppWidth, AppHeight - NavigationH), style: .Grouped, dataSource: self, delegate: self)
+        dayTableView.sectionHeaderHeight = 0.1
+        dayTableView.sectionFooterHeight = 0.1
+        dayTableView.contentInset = UIEdgeInsetsMake(-35, 0, 35, 0)
+        backgroundScrollView.addSubview(dayTableView)
+        
+        setTableViewHeader(self, refreshingAction: "pullLoadDayData", imageFrame: CGRectMake((AppWidth - SD_RefreshImage_Width) * 0.5, 47, SD_RefreshImage_Width, SD_RefreshImage_Height), tableView: dayTableView)
+    }
+    
+```
+
+上述代码是github上面`SmallDay`的首页部分代码，仅供参考，上面的UI属性都定义为`!`修饰的隐式可选值，而数据模型属性都定义为`?`修饰的可选值，具体怎样使用，建议多写代码多思考。
+
+以上，var game: Over?
+
+## 参考链接
+- http://stackoverflow.com/questions/24043589/null-nil-in-swift-language
+- http://www.drewag.me/posts/what-is-an-optional-in-swift
+- http://swiftcafe.io/2015/12/27/optional/
+- https://github.com/ZhongTaoTian/SmallDay
+
+=====================
+
+# URL Encoding
