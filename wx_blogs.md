@@ -718,5 +718,25 @@ as!操作符是类型转换的强制格式，优点在于代码简单，如果�
 和is操作符非常类似，类型转换的规则是，某个类的对象可以转换为自己这个类（of course），子类可以向上转换为超类，但超类不能向下转换（downcase）为子类。除非某个子类的对象表现形式为超类，但实际是子类，例如上面的例子中从数组取出的`tempLion`对象，这是可以使用as!进行向下转换。下面以代码+注释举例说明，
 
 ```
-var 
+// swift
+// 假设tempLion是一个表现为Animal的Lion类的对象
+// 此处假设realAnimal是一个表现为Animail的Animal类的对象
+var animal1 = tempLion as! Lion //这是as!的常见用法，可以转换成功
+var animal2 = tempLion as! Animal //成功，子类可以向上转型为超类
+var animal3 = tempLion as! Dog //失败，没有继承关系的类不可以转换
+var dog = realAnimal as! Dog //失败，超类不可以强制转换为子类
+
 ```
+
+## as? 操作符
+as?和as!操作符的转换规则完全一样，但是as?会返回一个呗雷巡转换的可选类型，需要我们解包（unwrap）。因此写法会略有不同，以刚刚的第一个例子来说，
+
+```
+if var animal = tempLion as? Lion {
+	// Do something with the animal
+}
+```
+犹豫是可选类型，即使转换失败也不会报错，所以比较推荐使用这种方式进行类型转换。
+
+## 参考链接
+- http://www.bubuko.com/infodetail-1066863.html
