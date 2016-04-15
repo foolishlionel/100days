@@ -648,3 +648,75 @@ class ExploreViewController: MainViewController, DoubleTextViewDelegate {
 =====================
 
 # URL Encoding
+
+
+
+20160415
+==============
+#### 1. swift as!,as? and is
+swift是强类型语言，单页允许开发者通过is, as?和as!这三种操作来对类型进行判断和强制转换。其中is用作类型判断，而as? 和as! 则分别是类型转换的可选形式和强制形式。在这里强调一下，swift中比较常用的是向下转型（downcast）是没有as操作符的。
+
+为了方便后面的解释，这里定义三个类Animal, Lion, Dog，其中Dog和Lion都继承自Animal，类的定义如下代码所示，
+
+```
+class Animal {
+    
+}
+
+class Dog : Animal {
+    
+}
+
+class Lion : Animal {
+    
+}
+
+let animal = Animal()
+let dog = Dog()
+let lion = Lion()
+```
+
+## is操作符
+is操作符用来判断某一个对象是否是某一个特定的类，它会返回一个bool类型的值。is操作的逻辑很简单，某一个类的对象肯定是自己这个类，也一定是自己的超类，但超类的对象不是子类。如果两个雷没有继承关系，那is操作一定返回false，以下是代码示例，
+
+```
+if animal is Dog {
+    print("animal is Dog")
+} else {
+    print("animal is not Dog")
+}
+
+if dog is Animal {
+    print("dog is Animal")
+} else {
+    print("dog is not animal")
+}
+
+if dog is Lion {
+    print("dog is Lion")
+} else {
+    print("dog is not Lion")
+}
+```
+
+需要注意的是，这里所说的一个对象的类，是指它真是的类而不是表现出来的类，比如把animal, dog, lion放进数组，再取出来，如下代码所示，
+
+```
+var animals: [Animal] = [animal, dog, lion]
+var tempLion = animals[2]
+if tempLion is Lion {
+    print("tempLion is Lion")
+} else {
+    print("tempLion is not Lion")
+}
+```
+所以通过上面的`var tempLion = animals[2]`取出的是Animal类对象，虽然在swift中表现为Animal，但它实际上是Lion对象，在对它使用is操作的时候，要把它当做Lion类的对象来考虑。因此，tempLion取出来时候是Animal类的对象而不是Lion类的对象，但是`tempLion is Lion`的返回值却应该是true。
+
+## as!操作符
+as!操作符是类型转换的强制格式，优点在于代码简单，如果可以转换，则会返回转换了格式的对象，如果无法转换就会跑出运行时错误导致crash。因此除非百分百确定可以转换，否则不应该使用as!来进行强制类型转换。
+
+和is操作符非常类似，类型转换的规则是，某个类的对象可以转换为自己这个类（of course），子类可以向上转换为超类，但超类不能向下转换（downcase）为子类。除非某个子类的对象表现形式为超类，但实际是子类，例如上面的例子中从数组取出的`tempLion`对象，这是可以使用as!进行向下转换。下面以代码+注释举例说明，
+
+```
+var 
+```
