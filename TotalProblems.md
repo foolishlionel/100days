@@ -415,3 +415,4 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 - [django基础教程-自强学堂](http://www.ziqiangxuetang.com/django/django-tutorial.html)
 - [CPU阿甘，通过生动详实的例子来说明CPU运行的流程](http://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513017&idx=1&sn=5550ee714abd36d0b580713f673e670b#rd)
 - [企业微信--让每个企业都有自己的微信](https://itunes.apple.com/app/id1087897068)
+- [Yoho企业邮箱账号更改的网站](https://smail.yoho.cn/)
