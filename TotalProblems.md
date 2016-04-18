@@ -292,7 +292,7 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 
 20160418
 ============
-### bug fix
+#### bug fix
 - [what I learned from hosting octopress blogs to github pages](http://allenyee.me/blog/2013/08/21/what-i-learned-from-hosting-octopress-on-github/)
 - [利用octopress部署博客到github](http://ju.outofmemory.cn/entry/98762)
 - [利用octopress搭建一个github博客](http://justcoding.iteye.com/blog/1954645)
@@ -301,7 +301,7 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 - [自定义你的octopress博客](http://foggry.com/blog/2014/04/28/custom-your-octopress-blog/)
 - [Mac10.9.5 PHP 5.4安装 memcached](http://www.bubuko.com/infodetail-442622.html)
 
-### good
+#### good
 - [这样好用的ReactiveCocoa，根本停不下来](http://www.cocoachina.com/ios/20150817/13071.html)
 - [iOS证书/私钥/代码签名/描述文件](http://blog.csdn.net/lvxiangan/article/details/17306269)
 - [iOS开发证书cer，p12文件，mobileprofile许可文件的作用](http://blog.csdn.net/lanergaming/article/details/38785533)
@@ -318,28 +318,52 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 - [download mysql workbench](http://dev.mysql.com/downloads/workbench/)
 - [what is this？这是一个大神的个人网站吗](http://chrisrisner.com/)
 
-### STOF
+#### STOF
 - [UIActivityViewController crash on iOS8 iPads](http://stackoverflow.com/questions/25644054/uiactivityviewcontroller-crashing-on-ios8-ipads)
 - [How do I fix the folling brew doctors errors?](http://stackoverflow.com/questions/18806884/how-do-i-fix-the-following-brew-doctor-errors)
 
-### WXin
+#### WXin
 - [微信公众平台](https://mp.weixin.qq.com/cgi-bin/frame?t=mass/statement_frame&nav=10005&lang=zh_CN&token=1684043568)
 - [微信开放平台](https://open.weixin.qq.com/)
 - [如何排版微信公众平台的文章？](http://www.zhihu.com/question/23640203)
 - [支付宝Api](https://doc.open.alipay.com/doc2/detail?treeId=59&articleId=103663&docType=1)
 
-### CocoaChina
+#### CocoaChina
 - [长篇高能ReactiveCocoa和MVVM入门](http://www.cocoachina.com/ios/20150526/11930.html)
 - [iOS9适配教程系列](http://www.cocoachina.com/ios/20150703/12392.html)
 
-### Github Repo
+#### Github Repo
 - [Coding源代码](https://github.com/Coding/Coding-iOS)
 
-### Photo Collections
+#### Photo Collections
 - [Awesome Wallpapers](http://alpha.wallhaven.cc/)
 - [花瓣网](http://huaban.com/)
 - [Mobile Design Pattern](http://pttrns.com/)
 
-### iOS Push推送原理
+#### iOS Push推送原理
 - [iOS推送消息，PHP做推送服务器](http://www.cnblogs.com/wenxp2006/articles/2555716.html)
 - [细说iOS消息推送](http://www.cocoachina.com/industry/20140528/8582.html)
+
+#### Blogs
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+[]()
