@@ -288,3 +288,58 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 ==========
 1. django web开发，[自强学堂](http://www.ziqiangxuetang.com/django/django-tutorial.html)
 2. 
+
+
+20160418
+============
+### bug fix
+- [what I learned from hosting octopress blogs to github pages](http://allenyee.me/blog/2013/08/21/what-i-learned-from-hosting-octopress-on-github/)
+- [利用octopress部署博客到github](http://ju.outofmemory.cn/entry/98762)
+- [利用octopress搭建一个github博客](http://justcoding.iteye.com/blog/1954645)
+- [升级Xcode之后VV-Document不能使用的解决办法](http://www.bubuko.com/infodetail-922634.html)
+- [pycharm4注册码](http://my.oschina.net/backtract/blog/360666?fromerr=FCvTSmp9)
+- [自定义你的octopress博客](http://foggry.com/blog/2014/04/28/custom-your-octopress-blog/)
+- [Mac10.9.5 PHP 5.4安装 memcached](http://www.bubuko.com/infodetail-442622.html)
+
+### good
+- [这样好用的ReactiveCocoa，根本停不下来](http://www.cocoachina.com/ios/20150817/13071.html)
+- [iOS证书/私钥/代码签名/描述文件](http://blog.csdn.net/lvxiangan/article/details/17306269)
+- [iOS开发证书cer，p12文件，mobileprofile许可文件的作用](http://blog.csdn.net/lanergaming/article/details/38785533)
+- [SQLite这么娇小可爱，不多了解点不行啊](http://www.cocoachina.com/ios/20150824/13169.html)
+- [Uber的github仓库](https://github.com/uber/)
+- [iOS Runtime Practice](https://github.com/huang303513/iOSRunTimeExplore/blob/master/README.md?plg_nld=1&plg_uin=1&plg_auth=1&plg_nld=1&plg_usr=1&plg_vkey=1&plg_dev=1)
+- [iOS9-Adaption-Tips](https://github.com/ChenYilong/iOS9AdaptationTips)
+- [iOS Provisioning Profile（Certificate）和Code Signing详解](http://blog.csdn.net/phunxm/article/details/42685597)
+- [Hexo+github域名和绑定的问题](http://www.jianshu.com/p/1d427e888dda)
+- [MMDrawerController](http://code4app.com/ios/MMDrawerController/51b3fd056803fa152e000000)
+- [github matt大神的个人中心](https://github.com/mattt)
+- [python教程，廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+- [download mysql community server](http://dev.mysql.com/downloads/mysql/5.1.html)
+- [download mysql workbench](http://dev.mysql.com/downloads/workbench/)
+- [what is this？这是一个大神的个人网站吗](http://chrisrisner.com/)
+
+### STOF
+- [UIActivityViewController crash on iOS8 iPads](http://stackoverflow.com/questions/25644054/uiactivityviewcontroller-crashing-on-ios8-ipads)
+- [How do I fix the folling brew doctors errors?](http://stackoverflow.com/questions/18806884/how-do-i-fix-the-following-brew-doctor-errors)
+
+### WXin
+- [微信公众平台](https://mp.weixin.qq.com/cgi-bin/frame?t=mass/statement_frame&nav=10005&lang=zh_CN&token=1684043568)
+- [微信开放平台](https://open.weixin.qq.com/)
+- [如何排版微信公众平台的文章？](http://www.zhihu.com/question/23640203)
+- [支付宝Api](https://doc.open.alipay.com/doc2/detail?treeId=59&articleId=103663&docType=1)
+
+### CocoaChina
+- [长篇高能ReactiveCocoa和MVVM入门](http://www.cocoachina.com/ios/20150526/11930.html)
+- [iOS9适配教程系列](http://www.cocoachina.com/ios/20150703/12392.html)
+
+### Github Repo
+- [Coding源代码](https://github.com/Coding/Coding-iOS)
+
+### Photo Collections
+- [Awesome Wallpapers](http://alpha.wallhaven.cc/)
+- [花瓣网](http://huaban.com/)
+- [Mobile Design Pattern](http://pttrns.com/)
+
+### iOS Push推送原理
+- [iOS推送消息，PHP做推送服务器](http://www.cnblogs.com/wenxp2006/articles/2555716.html)
+- [细说iOS消息推送](http://www.cocoachina.com/industry/20140528/8582.html)
