@@ -416,3 +416,9 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 - [CPU阿甘，通过生动详实的例子来说明CPU运行的流程](http://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513017&idx=1&sn=5550ee714abd36d0b580713f673e670b#rd)
 - [企业微信--让每个企业都有自己的微信](https://itunes.apple.com/app/id1087897068)
 - [Yoho企业邮箱账号更改的网站](https://smail.yoho.cn/)
+
+
+20160420
+==============
+- [iOS开发中常见问题集锦](http://www.cnblogs.com/Leo_wl/archive/2013/03/06/2946588.html)
+- [iOS开发常见疑难问题解决方案大集锦](http://mobile.51cto.com/iphone-407836.htm)
