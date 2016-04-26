@@ -423,3 +423,9 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 ==============
 - [iOS开发中常见问题集锦](http://www.cnblogs.com/Leo_wl/archive/2013/03/06/2946588.html)
 - [iOS开发常见疑难问题解决方案大集锦](http://mobile.51cto.com/iphone-407836.htm)
+
+20160426
+==============
+- [iOS经验总结UIWebView与JS交互]（http://www.aichengxu.com/view/9947/）
+- [iOS中UIWebView使用JS交互](http://www.tuicool.com/articles/6nM3ym)
+- [浅析Cordova for iOS](http://www.cocoachina.com/industry/20130520/6238.html)
