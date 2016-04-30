@@ -429,3 +429,18 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 - [iOS经验总结UIWebView与JS交互]（http://www.aichengxu.com/view/9947/）
 - [iOS中UIWebView使用JS交互](http://www.tuicool.com/articles/6nM3ym)
 - [浅析Cordova for iOS](http://www.cocoachina.com/industry/20130520/6238.html)
+
+
+20160430
+===============================================
+### 1.多线程 NSThread, GCD, NSOperation
+- SDWebImage
+- 文件下载（断点续传）
+- AFNetworking
+
+### 2. 沙盒目录
+
+### 3. 动画相关
+- Core Animation
+- UIView基础动画
+- UIKit Dynamic
