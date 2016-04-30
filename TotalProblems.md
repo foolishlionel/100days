@@ -434,11 +434,62 @@ Yoho Application是公司主打的一款资讯浏览的App，该App主要包括�
 20160430
 ===============================================
 ### 1.多线程 NSThread, GCD, NSOperation
+- NSTread
+- 线程同步
+- 延迟执行
+- 单例设计模式
 - SDWebImage
 - 文件下载（断点续传）
 - AFNetworking
 
-### 2. 沙盒目录
+#### 1.1 NSThread
+
+NSThread是经过苹果封装的，并且死完全面向对象的。所以你可以直接操控线程对象，非常直观恶方便。但是它的生命走起还需要我们手动管理，所以这套方案也是偶尔用用，比如[NSThread currentThread]，它可以获取当前线程类，你就可以知道当前线程的各种属性，用于**调试Debug**十分方便。
+
+示例代码如下，
+
+```
+// 1. 创建并启动
+// Objective-C
+NSThread * thread = [[NSThread alloc] initWithTarget:self selector:@selector(run:) object:nil];
+[thread start];
+// swift
+let thread = NSThread(target:self, selector:"run", object:nil)
+thread.start()
+
+// 2. 创建并自动启动
+// Objective-C
+[NSThread detacNewThreadSelector:@selector(run:) toTarget:self witObject:nil];
+// swift
+NSThread.detachNewThreadSelector("run", toTarget:self, withObject:nil);
+
+// 3. 使用NSObject的方法创建并自动启动
+// Objective-C
+[self performSelectorInBackground:@selector(run:) withObject:nil];
+// swift 苹果认为performSelector不安全，所以在swift去掉了这个方法、
+
+// 4. 其他的一些方法
+- (void)cancel;
+- (void)start;
+
+@property (readonly, getter=isExecuting) BOOL executing;
+@property (readonly, getter=isFinised) BOOL finished;
+@property (readonly, getter=isCancelled) BOOL cancelled;
+
++ (NSThread *)currentTread;//获取当前线程信息
++ (NSThread *)mainThread;//获取主线程信息
+
+// 使当前线程暂停一段时间，或者暂停到某个时刻
++ (void)sleepForTimeInterval:(NSTimeInterval)time;
++ (void)sleepUntilDate:(NSDate *)date;
+```
+
+#### 1.2 GCD - Grand Central Dispatch
+它是苹果为多核的并行运算提出的解决方案，所以会自动合理地利用更多的CPU内核（比如双核、四核），最重要的是它会自动管理线程的生命周期，例如创建线程、调度任务、销毁线程，完全不需要我们管理，我们只需要告诉它干什么就行。同时它使用的也是c语言，不过由于使用了Block（swift里叫做闭包），使得使用起来更加方便而且灵活。
+
+[关于iOS多线程，你看我就行喽](http://www.jianshu.com/p/0b0d9b1f1f19)
+
+### 2. 沙盒机制与文件系统
 
 ### 3. 动画相关
 - Core Animation
