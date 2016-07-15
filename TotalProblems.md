@@ -495,3 +495,24 @@ NSThread.detachNewThreadSelector("run", toTarget:self, withObject:nil);
 - Core Animation
 - UIView基础动画
 - UIKit Dynamic
+
+
+## 20160715
+### 办公收藏夹
+- [简书](http://www.jianshu.com/)
+- [sympli](https://app.sympli.io)
+- [effevo](https://effevo.com)
+- [tower](https://tower.im)
+- [jsoneditor](http://jsoneditoronline.org/)
+- [raywenderlich swift guide line](http://www.cocoachina.com/swift/20141105/10145.html)
+- [chinese swift tutorial](http://www.yiibai.com/swift/)
+- [introduction of swift init method](http://swifter.tips/init-keywords/)
+- [homebrew on Mac OS X](http://stackoverflow.com/questions/20381128/how-to-install-homebrew-on-os-x)
+- [swift init method 2ed edition](http://www.codingexplorer.com/designated-initializers-convenience-initializers-swift/)
+- [Alarcatraz plugin in Xcode](http://www.jianshu.com/p/5c8ed25ad434)
+- [Usage of Vim in Xcode](https://segmentfault.com/bookmark/1230000000761666)
+- [Photo Resources from Unsplash](https://unsplash.com/)
+- [Photo Resources from publicdomainarchive](http://publicdomainarchive.com/)
+- [get scroll direction from pangesture](http://www.cocoachina.com/bbs/read.php?tid-260813.html)
+- [sth about weak unowned self ](http://www.tuicool.com/articles/fIBvA3a)
+- [knowledge about git pull request](http://my.oschina.net/kzhou/blog/150290)
