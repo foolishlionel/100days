@@ -516,3 +516,7 @@ NSThread.detachNewThreadSelector("run", toTarget:self, withObject:nil);
 - [get scroll direction from pangesture](http://www.cocoachina.com/bbs/read.php?tid-260813.html)
 - [sth about weak unowned self ](http://www.tuicool.com/articles/fIBvA3a)
 - [knowledge about git pull request](http://my.oschina.net/kzhou/blog/150290)
+
+
+## 20160718
+- [算法导论官方网站及习题答案](https://mitpress.mit.edu/books/introduction-algorithms)
