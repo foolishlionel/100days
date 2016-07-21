@@ -520,3 +520,8 @@ NSThread.detachNewThreadSelector("run", toTarget:self, withObject:nil);
 
 ## 20160718
 - [算法导论官方网站及习题答案](https://mitpress.mit.edu/books/introduction-algorithms)
+
+
+## 20160721
+- Swift外文资源[learnswifttips](http://www.learnswift.tips/)
+- Swift Optional with demos[A Beginers Swift Optional Guide](http://www.appcoda.com/beginners-guide-optionals-swift/)
