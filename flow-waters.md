@@ -15,3 +15,11 @@
 - javascript基本数据类型和对象
 	- var myName = String("flion") // 基本类型String
 	- var myName = new String("flion") // String对象
+- javascript位操作符
+	- & 与操作
+	- | 或操作
+	- ^ 异或操作
+	- ~ 非操作
+	- << 左移位	
+	- >> 右移位	
+	- >>> 补零的右移位
