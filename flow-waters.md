@@ -11,4 +11,7 @@
 - ssh-keygen -t rsa ....
 - 创建个人博客站点pythonhater.github.io - [finished]
 
-
+### 20170209
+- javascript基本数据类型和对象
+	- var myName = String("flion") // 基本类型String
+	- var myName = new String("flion") // String对象
