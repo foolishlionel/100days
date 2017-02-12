@@ -40,8 +40,6 @@ HTML里面使用CSS的几种方式
 ```
 // <tag style="properties">网页内容</tag>，例如
 <p style="font-family:Geneva, Arial, Helvetica, sans-serif;font-size:9px;color:#ff9900">CSS</p>
-
-
 ```
 
 #### 2. 添加在HTML的头信息标识符<head>里
