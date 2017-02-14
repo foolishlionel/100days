@@ -84,3 +84,6 @@ link和@import的区别：服务对象不一样，@import为CSS服务，link为�
 
 
 
+### 20170214
+- div和p的区别
+[参考链接](http://www.w3school.com.cn/tags/tag_span.asp)
