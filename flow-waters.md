@@ -80,5 +80,5 @@ main.css是单独保存的样式表文件，其中不能包含<style>标识符�
 <style>
 ```
 
-link和@import的区别：服务对象不一样，@import为CSS服务，link为当前的页服务，@import会优先执行。
+link和`@import`的区别：服务对象不一样，`@import`为CSS服务，link为当前的页服务，`@import`会优先执行。
 
