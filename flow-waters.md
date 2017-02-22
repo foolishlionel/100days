@@ -70,6 +70,7 @@ HTML里面使用CSS的几种方式
 <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 ```
+
 main.css是单独保存的样式表文件，其中不能包含<style>标识符，并且只能以css为后缀。如果用作一个web站点的话建议使用链接样式表的方式，如果需要修改web站点的页面的话，只需要修改几个css文件就可以使整个web页面更新，缩短了修改时间和提高了工作效率。
 
 ### 20170222
