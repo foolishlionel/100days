@@ -87,3 +87,4 @@ main.css是单独保存的样式表文件，其中不能包含`<style>`标识符
 ### 20170301
 - webview的cookie
 - javascript的cookie
+- swift的defer和guard
