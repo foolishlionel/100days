@@ -88,3 +88,6 @@ main.css是单独保存的样式表文件，其中不能包含`<style>`标识符
 - webview的cookie
 - javascript的cookie
 - swift的defer和guard
+
+### 20170405
+- iOS layout constraint priority - [uilabel抗压抗拉和约束简介](http://www.cnblogs.com/losedMemory/p/5844230.html)
