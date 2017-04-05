@@ -91,3 +91,8 @@ main.css是单独保存的样式表文件，其中不能包含`<style>`标识符
 
 ### 20170405
 - iOS layout constraint priority - [uilabel抗压抗拉和约束简介](http://www.cnblogs.com/losedMemory/p/5844230.html)
+- 技能树
+	- rac
+	- hexo源码和foolishlionel博客完善
+	- javascript dom编程
+	- makepl的开发
